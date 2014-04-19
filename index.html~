@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Find</title>
+	<meta name="keywords" content="find, missing, persons, social service, alerts, security" />
+	<meta name="description" content="Find is a website for finding missing people.At the same time deliver alert messages regarding security" />
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/templatemo_misc.css">
+	<link rel="stylesheet" href="css/templatemo_style.css">
+</head>
+<body>
+
+	<!-- This one in here is responsive menu for tablet and mobiles -->
+    <div class="responsive-navigation visible-sm visible-xs">
+        <a href="#" class="menu-toggle-btn">
+            <i class="fa fa-bars fa-2x"></i>
+        </a>
+        <div class="navigation responsive-menu">
+            <ul>
+                <li class="home"><a href="#templatemo">Home</a></li>
+                <li class="login"><a href="#portfolio">login</a></li>
+	            <li class="services"><a href="#services">Services</a></li>
+	            <li class="about"><a href="#about">About Us</a></li>
+	            <li class="contact"><a href="#contact">Contact</a></li>
+            </ul> <!-- /.main_menu -->
+        </div> <!-- /.responsive_menu -->
+    </div> <!-- /responsive_navigation -->
+
+	<div id="main-sidebar" class="hidden-xs hidden-sm">
+		<div class="logo">
+			<a href="index.html" rel="nofollow"><h1>Find</h1></a>
+			<span>For missing people</span>
+		</div> <!-- /.logo -->
+
+		<div class="navigation">
+	        <ul class="main-menu">
+	            <li class="home"><a href="#templatemo">Home</a></li>
+	            <li class="login"><a href="#portfolio">login</a></li>
+	            <li class="services"><a href="#services">Services</a></li>
+	            <li class="about"><a href="#about">About Us</a></li>
+	            <li class="contact"><a href="#contact">Contact</a></li>
+	        </ul>
+		</div> <!-- /.navigation -->
+
+	</div> <!-- /#main-sidebar -->
+
+	<div id="main-content">
+
+		<div id="templatemo">
+			<div class="main-slider">
+				<div class="flexslider">
+					<ul class="slides">
+
+						<li>
+							<div class="slider-caption">
+								<h2>Aim</h2>
+								<p>help finding the missing people,alert the people about the possible emergency and to notify about the wanted criminals by using location specific data.</p>
+								<a href="readmore.html" rel="nofollow" class="largeButton homeBgColor">Read More</a>
+							</div>
+							<img src="images/slide1.jpg" alt="Slide 1">
+						</li>
+
+						<li>
+							<div class="slider-caption">
+								<h2>Most wanted</h2>
+								<p>Help finding the most wanteds in the society.Your little contribution might be worth a million</p>
+								<a href="deatils.html" rel="nofollow" class="largeButton homeBgColor">Details</a>
+							</div>
+							<img src="images/slide2.jpg" alt="Slide 2">
+						</li>
+
+                        <li>
+							<div class="slider-caption">
+								<h2>Join Us</h2>
+								<p>Create your account here.Get latest security alerts from your area</p>
+								<a href="signup.html" rel="nofollow" class="largeButton homeBgColor">Sign Up</a>
+							</div>
+							<img src="images/slide3.jpg" alt="Slide 3">
+						</li>
+
+					</ul>
+				</div>
+			</div>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="welcome-text">
+							<h2>Welcome to the wesite Find</h2>
+							<p><b>Find is a website providing you the location based service</b></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> <!-- /#sTop -->
+
+		<div id="portfolio" class="section-content">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="section-title">
+							<h2>Login</h2>
+						</div> <!-- /.section-title -->
+					</div> <!-- /.col-md-12 -->
+				</div> <!-- /.row -->
+				<p><b>Click the button below to login and if you are not registered user please register and then sign in.
+				<div class="col-md-4">
+						<div class="service-item"  style="background:#00FFBF;">
+							<div class="service-icon">
+								<i class="fa fa-laptop fa-2x"></i>
+							</div>
+							<div class="service-content">
+								<a href="login1.html" rel="nofollow"><h3><b><font color = "#FFFFF">Login<br>Registration</font><b></h3></a>
+							</div>
+						</div> <!-- /.service-item -->
+				</div> <!-- /.col-md-4 -->
+
+		</div> <!-- /#portfolio --> 
+		<br/>
+		<br/>
+		<div id="services" class="section-content">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="section-title">
+							<h2>Services</h2>
+						</div> <!-- /.section-title -->
+					</div> <!-- /.col-md-12 -->
+				</div> <!-- /.row -->
+				<div class="row">
+					<div class="col-md-4">
+						<div class="service-item clearfix">
+							<div class="service-icon">
+								<i class="fa fa-bolt fa-2x"></i>
+							</div>
+							<div class="service-content">
+								<a href="http://www.templatemo.com" rel="nofollow"><h3><b><font color = "#FFFFF">Complaints<br>Log Complaints</font><b></h3></a>
+							</div>
+						</div> <!-- /.service-item -->
+					</div> <!-- /.col-md-4 -->
+					<div class="col-md-4">
+						<div class="service-item">
+							<div class="service-icon">
+								<i class="fa fa-laptop fa-2x"></i>
+							</div>
+							<div class="service-content">
+								<a href="http://www.templatemo.com" rel="nofollow"><h3><b><font color = "#FFFFF">Search<br>Search Missing</font><b></h3></a>
+							</div>
+						</div> <!-- /.service-item -->
+					</div> <!-- /.col-md-4 -->
+					<div class="col-md-4">
+						<div class="service-item">
+							<div class="service-icon">
+								<i class="fa fa-pencil fa-2x"></i>
+							</div>
+							<div class="service-content">
+								<a href="http://www.templatemo.com" rel="nofollow"><h3><b><font color = "#FFFFF">Wanted<br>MostWanted</font><b></h3></a>
+							</div>
+						</div> <!-- /.service-item -->
+					</div> <!-- /.col-md-4 -->
+				</div> <!-- /.row -->
+				<div class="row our-skills">
+					<div class="col-md-8">
+						<h3>Our Concern</h3>
+						Now a days safty is a biggest challenge.Unwanted things keep happening around us.In these situations we need a platform to keep ourselves updated 
+					</div>
+				</div>
+			</div> <!-- /#services -->
+
+		<div class="container-fluid">
+
+			<div id="about" class="section-content">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="section-title">
+							<h2>About Us</h2>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="member-item">
+							<div class="member-thumb">
+								<img src="images/team1.jpg" alt="designer1">
+								<div class="overlay">
+									<ul class="social-member">
+										<li><a href="#" class="fa fa-facebook"></a></li>
+										<li><a href="#" class="fa fa-twitter"></a></li>
+										<li><a href="#" class="fa fa-linkedin"></a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="member-content">
+								<h4>Ashray</h4>
+								<p>Web Developer</p>
+							</div>
+						</div>
+					</div> <!-- /.col-md-4 -->
+					<div class="col-md-4">
+						<div class="member-item">
+							<div class="member-thumb">
+								<img src="images/team2.jpg" alt="designer2">
+								<div class="overlay">
+									<ul class="social-member">
+										<li><a href="#" class="fa fa-facebook"></a></li>
+										<li><a href="#" class="fa fa-twitter"></a></li>
+										<li><a href="#" class="fa fa-linkedin"></a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="member-content">
+								<h4>Swathi</h4>
+								<p>Web Developer</p>
+							</div>
+						</div>
+					</div> <!-- /.col-md-4 -->
+				</div> <!-- /.row -->
+			</div> <!-- /#about -->
+
+			
+
+			
+
+			<div id="contact" class="section-content">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="section-title">
+							<h2>Contact Us</h2>
+						</div> <!-- /.section-title -->
+					</div> <!-- /.col-md-12 -->
+				</div> <!-- /.row -->
+				<div class="row">
+					<div class="col-md-12">
+						<div class="map-holder">
+							<div class="google-map-canvas" id="map-canvas" style="height: 400px;">
+                    		</div>
+						</div> <!-- /.map-holder -->
+					</div> <!-- /.col-md-12 -->
+				</div> <!-- /.row -->
+				<div class="row contact-form">
+					<form method = "POST" action = "contctus.php">
+					<div class="col-md-4">
+						<label for="name-id" class="required">Name:</label>
+						<input name="name-id" type="text" id="name-id" maxlength="40">
+					</div> <!-- /.col-md-4 -->
+					<div class="col-md-4">
+						<label for="email-id" class="required">Email:</label>
+						<input name="email-id" type="text" id="email-id" maxlength="40" required>
+					</div> <!-- /.col-md-4 -->
+					<div class="col-md-4">
+						<label for="subject-id">Subject:</label>
+						<input name="subject-id" type="text" id="subject-id" maxlength="60">
+					</div> <!-- /.col-md-4 -->
+					<div class="col-md-12"required>
+						<label for="message-id" class="required">Message:</label>
+						<textarea name="message-id" id="message-id" rows="6"></textarea>
+					</div> <!-- /.col-md-12 -->
+					<div class="col-md-12">
+						<div class="submit-btn">
+							<a href="contactus.php" class="largeButton contactBgColor">Send Message</a>
+						</div> <!-- /.submit-btn -->
+					</div> <!-- /.col-md-12 -->
+					</form>
+				</div>
+			</div> <!-- /#contact -->
+
+		</div> <!-- /.container-fluid -->
+
+		<div class="site-footer">
+			<div class="first-footer">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="social-footer">
+								<ul>
+									<li><a href="#" class="fa fa-facebook"></a></li>
+									<li><a href="#" class="fa fa-twitter"></a></li>
+									<!--<li><a href="#" class="fa fa-dribbble"></a></li>-->
+									<li><a href="#" class="fa fa-linkedin"></a></li>
+									<li><a href="#" class="fa fa-rss"></a></li>
+								</ul>
+							</div> <!-- /.social-footer -->
+						</div> <!-- /.col-md-12 -->
+					</div> <!-- /.row -->
+				</div> <!-- /.container-fluid -->
+			</div> <!-- /.first-footer -->
+			<div class="bottom-footer">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-6">
+							<p class="copyright">Copyright © 2014 <a href="#">Team Classic Design</a>
+                            </p>
+						</div> <!-- /.col-md-6 -->
+						<div class="col-md-6 credits">
+							<p>Design: <a href="index.html" rel="nofollow">Team classic Design</a></p>
+						</div> <!-- /.col-md-6 -->
+					</div> <!-- /.row -->
+				</div> <!-- /.container-fluid -->
+			</div> <!-- /.bottom-footer -->
+		</div> <!-- /.site-footer -->
+
+	</div> <!-- /#main-content -->
+
+	<!-- JavaScripts -->
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/jquery.singlePageNav.js"></script>
+	<script src="js/jquery.flexslider.js"></script>
+	<script src="js/jquery.prettyPhoto.js"></script>
+	<script src="js/custom.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("a[data-gal^='prettyPhoto']").prettyPhoto({hook: 'data-gal'});
+		});
+
+        function initialize() {
+          var mapOptions = {
+            zoom: 11,
+            center: new google.maps.LatLng(12.9667,77.5667)
+          };
+
+          var map = new google.maps.Map(document.getElementById('map-canvas'),
+              mapOptions);
+        }
+
+        function loadScript() {
+          var script = document.createElement('script');
+          script.type = 'text/javascript';
+          script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' +
+              'callback=initialize';
+          document.body.appendChild(script);
+        }
+
+        window.onload = loadScript;
+    </script>
+
+</body>
+<script type='text/javascript' src='js/logging.js'></script>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>login and registration</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Le styles -->
+	<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+	<link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+
+	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+		<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div class="container">
+		<!-- Main hero unit for a primary marketing message or call to action -->
+	<div class="hero-unit clearfix">
+ 	<div class="pull-left span5">
+  		<h1>Find</h1>
+  		<p>For Missing people</p>
+ 	</div>
+ 	<div class="pull-right">
+ 		<form id=insertmissing class="well" method="post" action="missing.php" enctype="multipart/form-data">
+   			<legend>Enter Details</legend>
+   			<label><b>Name *</b></label>
+   			<input type="text" name="name"class="span3" placeholder="Missing person's name" required>
+   			<label><b>Age *</b></label>
+   			<input type="text" name="age" class="span3" placeholder="Age" required>
+   			<label><b>gender *</b></label>
+   			<select name="gender">
+  				<option value="male">Male</option>
+  				<option value="female">Female</option>
+  				<option value="others">Other</option>
+			</select>
+   			<label><b>Last seen Location *</b></label>
+   			<input type="text" name="lastloc" class="span3" placeholder="Last seen Location" required>
+   			<label><b>Last seen PIN code *</b></label>
+   			<input type="text" name="lastpin" class="span3" placeholder="PIN code" required>
+   			<label><b>Description *</b></label>
+   			<textarea name="description" class="span3" id="description" rows="6" placeholder = "Enter description" required></textarea>
+   			<label><b>Other Information </b></label>
+   			<textarea name="otherinfo" class="span3" id="otherinfo" rows="6" placeholder = "Other info" required></textarea>
+   			<label><b>Contact </b></label>
+   			<textarea name="contactinfo" class="span3" id="contactinfo" rows="6" placeholder = "Contact Information" required></textarea>
+   			<br>
+   			<label>Photo *</label>
+   			<input type="file" name="photo" class="span3" placeholder="choose image" required>
+   			<br>
+   			<br>
+   			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="submit" class="btn btn-success">Submit Description</button>
+   			<br>
+   			<br>
+   			<div>
+	  			<p>* fields are mandatory</p>
+   			</div>
+   		</form>	
+   	</div>
+	<div class="pull-left">
+		<img border="0" src="images/lost.jpg" alt="lost" width="400" height="600">
+   	</div>
+ </div>
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="http://twitter.github.com/bootstrap/assets/js/jquery.js"></script>
+<script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-button.js"></script>
+<script type="text/javascript" src="http://jzaefferer.github.com/jquery-validation/jquery.validate.js"></script>
+</body>
+</html>
